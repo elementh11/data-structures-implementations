@@ -48,5 +48,4 @@ class ArrayList:
         # element before index are not affected by deletion
         for _ in range(index, self.size): 
             self.list[index] = self.list[index+1]
-
         self.size -= 1
