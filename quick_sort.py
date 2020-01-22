@@ -1,5 +1,8 @@
 def quicksort(arr, left, right):
-
+    '''
+    Implementation of the quicksort algoritm
+    '''
+    
     if left >= right:
         return
 
